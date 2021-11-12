@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon32.png">
+  <title>Menú - ICHIRAKU Restaurante</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="navbar-brand" href="/">
+            <img src="./assets/images/logos/Logo1.png" alt="Logo de ICHIRAKU" class="navbar-logo">
+          </a>
+          <a class="nav-link" href="./index.html">Inicio</a>
+          <a class="nav-link" href="./historia.html">Historia</a>
+          <a class="nav-link nav-link--active" href="./menu.html">Menu</a>
+          <a class="nav-link" href="./promociones.html">Promociones</a>
+          <a class="nav-link" href="./sucursales.html">Sucursales</a>
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="container">
+      <nav class="menu">
+        <h1>Nuestro Menú</h1>
+        <ul>
+          <li><a href="#">Ramen</a></li>
+          <li><a href="#">Sushi</a></li>
+          <li><a href="#">Combos</a></li>
+          <li><a href="#">Postres</a></li>
+          <li><a href="#">Bebidas</a></li>
+        </ul>
+      </nav>
+      <div class="container-items">
+        <img class="img-comida" src="./assets/images/logos/banner.jpg" alt="">
+        <div class="items">
+          <img class="img-item" src="./assets/images/foods/Dango.png" alt="">
+          <div class="info-item">
+            <h2>Dango</h2>
+            <p>Empanadillas de arroz dulce de varios sabores, como pasta de frijol rojo (anko), té verde,
+              y jarabe de
+              salsa de soya.</p>
+            <p class="price">$450</p>
+            <input type="button" value="Comprar" class="btn-cta">
+          </div>
+        </div>
+
+        <div class="items">
+          <img class="img-item" src="./assets/images/foods/Gyozas.png" alt="">
+          <div class="info-item">
+            <h2>Gyozas</h2>
+            <p>Empanadillas japonesas cocinadas al vapor y pasadas por la plancha.</p>
+            <p class="price">$520</p>
+            <input type="button" value="Comprar" class="btn-cta">
+          </div>
+        </div>
+
+        <div class="items">
+          <img class="img-item" src="./assets/images/foods/Onigiri.png" alt="">
+          <div class="info-item">
+            <h2>Onigiri</h2>
+            <p>Bola de arroz rellena o mezclada con otros ingredientes. Suele tener forma triangular u oval, y a
+              veces está
+              envuelta en una pequeña tira de alga nori.</p>
+            <p class="price">$480</p>
+            <input type="button" value="Comprar" class="btn-cta">
+          </div>
+        </div>
+
+        <div class="items">
+          <img class="img-item" src="./assets/images/foods/Te_Verde.png" alt="">
+          <div class="info-item">
+            <h2>Te Verde</h2>
+            <p>Bebida que se produce a partir de la hoja fresca de la planta Camellia sinensis.</p>
+            <p class="price">$290</p>
+            <input type="button" value="Comprar" class="btn-cta">
+          </div>
+        </div>
+
+        <div class="items">
+          <img class="img-item" src="./assets/images/foods/Taiyaki.png" alt="">
+          <div class="info-item">
+            <h2>Taiyaki</h2>
+            <p>Pastel con forma de pez relleno con pasta de judías dulces.</p>
+            <p class="price">$720</p>
+            <input type="button" value="Comprar" class="btn-cta">
+          </div>
+        </div>
+
+        <div class="items">
+          <img class="img-item" src="./assets/images/foods/Nikuman.png" alt="">
+          <div class="info-item">
+            <h2>Nikuman</h2>
+            <p>Panecillo relleno de carne y cocinado al vapor.</p>
+            <p class="price">$620</p>
+            <input type="button" value="Comprar" class="btn-cta">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer container-fluid">
+    <div class="iconos">
+      <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-square fa-3x"></i></a>
+      <a href="http://www.instagram.com"><i class="fa-brands fa-instagram fa-3x"></i></a>
+      <a href="http://www.twitter.com"><i class="fa-brands fa-twitter-square fa-3x"></i></a>
+    </div>
+    <p>ICHIRAKU © 2021 - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
